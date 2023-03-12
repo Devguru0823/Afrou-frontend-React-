@@ -1,0 +1,19 @@
+.rightButton {
+    display: inline-block;
+    color: white;
+    top: 280px;
+    position: absolute;
+    right: calc(50% - 46%);
+    font-size: 24px;
+	z-index: 999999;
+}
+
+.leftButton {
+    display: inline-block;
+    color: white;
+    top: 280px;
+    position: absolute;
+    left: calc(50% - 46%);
+    font-size: 24px;
+	z-index: 999999;
+}

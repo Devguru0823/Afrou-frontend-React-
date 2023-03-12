@@ -1,0 +1,16 @@
+.dot-loader {
+    position: relative;
+    height: 700px;
+    text-align: center;
+    width: 100%;
+}
+
+.dot-loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); / (x, y)  => position /
+-ms-transform: translate(-50%, -50%); / IE 9 /
+-webkit-transform: translate(-50%, -50%); / Chrome, Safari, Opera /
+    display: inline-block;
+}

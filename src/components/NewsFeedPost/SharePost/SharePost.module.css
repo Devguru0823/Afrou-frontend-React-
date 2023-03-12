@@ -1,0 +1,17 @@
+.Dropdown {
+  font-family: 'Yatra One', cursive;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4a4a4a;
+  text-align: left;
+  margin-left: 1vw !important;
+  width: 110px !important;
+  font-size: 0.6rem !important;
+  height: 23px !important;
+  padding-left: 0.6rem;
+  padding-top: 0.2rem;
+  border-radius: 0 !important;
+}
+span>svg{
+  display: block !important;
+}

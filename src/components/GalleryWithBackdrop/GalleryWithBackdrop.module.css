@@ -1,0 +1,18 @@
+.GalleryImage {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -webkit-transition: opacity 0.3s !important;
+    display: block !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    user-select: none !important;
+    opacity: 1 !important;
+    transition: opacity 0.3s !important;
+    cursor: auto;
+    max-height: calc(100vh - 180px);
+    vertical-align: middle;
+    border-style: none;
+}

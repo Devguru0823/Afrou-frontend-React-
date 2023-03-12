@@ -1,0 +1,9 @@
+.ads-container {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.ads-list {
+  display: grid;
+  grid-template-columns: auto;
+}

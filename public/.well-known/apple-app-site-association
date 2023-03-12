@@ -1,0 +1,23 @@
+{
+ "webcredentials": {
+      "apps": [ "SD24YGBV73.com.app.Afrocamgist" ]
+   },
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "SD24YGBV73.com.app.Afrocamgist" ],
+	     "components": [
+               {
+                  "/": "/login/viaVerification",
+                  "comment": "Matches any URL whose path starts with /login/viaVerification"
+               },
+		{
+                  "/": "/post/*",
+                  "comment": "Matches any URL whose path starts with /post/"
+               }
+             ]
+           }
+       ]
+   }
+  
+}

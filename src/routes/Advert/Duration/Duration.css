@@ -1,0 +1,8 @@
+.duration-container {
+  width: 100%;
+  text-align: left;
+}
+
+.duration-container .total-cost {
+  text-align: center;
+}

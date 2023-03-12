@@ -1,0 +1,45 @@
+.two-fa-container {
+  max-width: 100%;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.two-fa-container .two-fa-header {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.two-fa-container .two-fa-header h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
+}
+
+.two-fa-container .two-fa-header .sub-text {
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.two-fa-container .two-fa-options {
+  text-align: center;
+}
+
+.two-fa-container .two-fa-options .option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.two-fa-container .continueBtn {
+  background-color: #ff7400;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  float: right;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

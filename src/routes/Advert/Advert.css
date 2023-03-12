@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    /* background-color: #fff; */
+    font-family: 'Roboto', sans-serif;
+    font-size: .8125rem;
+}
+
+.overallContainer {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.MuiPaper-root {
+    background: #e6f9ef !important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #0C090D !important;
+    font-weight: 600 !important;
+}
+
+input {
+    font-size: 1rem !important;
+}
+
+Button {
+    color: #fff !important;
+}
+
+.sub-text {
+    color: #696773;
+    font-weight: normal !important;
+}
+
+/* .optionsContainer span {
+    color: #ff7400
+} */
+
+.promo-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-flex-left {
+    display: flex;
+    align-items: center;
+}
+
+.promote-top-container {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#divider {
+    margin-top: 0;
+}
+
+.promote-top-container .promote-top-text {
+    margin-left: 10px
+}
+
+.promote-top-container .promote-top-text p {
+    margin-bottom: 0;
+}
+
+.promote-top-container .promote-top-text span {
+    color: rgb(109, 109, 109);
+}
+
+.promote-top-container #top-post-img {
+    width: 50%;
+    object-fit: contain;
+    height: 80px;
+}
+
+.create-container {
+    margin-top: 10px;
+}
+
+.create-container #choose-post {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* .flex-arrow {
+    align-self: center;
+} */
+
+.section-container {
+    padding: 10px;
+    /* margin: 0px auto; */
+}
+
+.section-container .contents {
+    width: 50% !important;
+    margin: 0px auto;
+}
+
+.section-container .header {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section-container .header h2 {
+    font-weight: normal;
+}
+
+.section-container .header span {
+    color: rgb(109, 109, 109);
+}
+
+.section-container .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-container .nextBtn {
+    color: #fff;
+    width: 100%;
+}
+
+.nextBtnContainer {
+    margin: 30px auto 0;
+}
+
+.sub-text span {
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+
+.sub-text p {
+    margin-bottom: 0
+}
+
+
+.MuiFormControl-root {
+    display: flex !important;
+}
+
+.MuiFormGroup-row {
+    flex-direction: column !important;
+}
+
+.color-primary {
+    background: #ff7400;
+}
+
+#nextBtn {
+    margin-top: 15px;
+}
+
+.nextBtn {
+    background: #ff7400;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#nextBtn,
+.nextBtn,
+#create-btn,
+#delete-btn,
+#next-btn span,
+.nextBtn span,
+#create-btn span,
+#delete-btn span {
+    color: #fff !important;
+}
+
+.choice p {
+    margin-bottom: 0;
+}
+
+#postSelectModal {
+    scroll-behavior: smooth;
+}
+
+#managePromoModal span {
+    display: block;
+}
+
+#homefooter {
+    position: relative;
+    top: 150px
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    margin: 10px auto;
+    gap: 20px 50px;
+}
+
+.grid-item {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+}
+
+.pr-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.m-0 {
+    margin: 0
+}

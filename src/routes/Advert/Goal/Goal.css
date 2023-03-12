@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 10px auto;
+}
+
+.flex-container div {
+  margin: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+#errMsg {
+  color: #c50909;
+}

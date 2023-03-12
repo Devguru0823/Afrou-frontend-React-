@@ -1,0 +1,3 @@
+exports.keys = {
+	CURRENCY_CONVERTER_API_KEY: 'e3497970-7b7d-11ec-a10b-117965418676',
+};

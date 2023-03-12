@@ -1,0 +1,62 @@
+.section-container {
+  width: 100% !important;
+}
+
+.advert-choices {
+  /* display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly;
+  align-items: center; */
+  width: 50%;
+  margin: 10px auto;
+}
+
+.advert-choices .choice {
+  margin-bottom: 15px;
+}
+
+.advert-choices .choice span, .payment-container span {
+  color: #505050;
+}
+
+/* .payment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // align-items: center;
+} */
+
+#noteText {
+  text-align: center
+}
+
+#createPromoBtn {
+  color: #fff;
+  width: 60%;
+}
+
+#verifyTransBtn {
+  color: #fff;
+  width: 100%
+}
+
+#createPromoBtn span, #verifyTransBtn span {
+  color: #fff !important;
+}
+
+body {
+  overflow: visible;
+}
+
+.grid-item p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.grid-item p span {
+  margin-right: 5px;
+}
+
+/* .flex-container div {
+  margin: 0;
+} */

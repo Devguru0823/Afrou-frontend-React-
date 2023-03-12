@@ -1,0 +1,115 @@
+#countriesFromControl,
+#interestsFromControl,
+#ageFormControl {
+	margin: 2px 0px 15px;
+}
+
+#age-slider-text {
+	color: rgba(0, 0, 0, 0.54);
+}
+
+#modal-title {
+	margin-bottom: 20px;
+}
+
+#create-btn {
+	color: #fff;
+}
+
+#delete-btn {
+	float: left;
+	color: #fff;
+	background-color: #ff0000;
+}
+
+.sub-text {
+	margin-top: 15px;
+}
+
+.larger {
+	font-size: 18px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container p {
+	margin-bottom: 0;
+}
+
+.flex-container .edit-span {
+	color: #0000ff;
+	cursor: pointer;
+}
+
+.create-edit-container {
+	width: 100%;
+	text-align: left;
+}
+
+.create-edit-container h2 {
+	text-align: center;
+}
+
+.display-row {
+	flex-direction: row !important;
+	justify-content: space-between;
+}
+
+/* .actionBtns {
+  width: 50%;
+} */
+
+.actionBtns button {
+	margin: 10px;
+	width: max-content;
+}
+
+.audienceContainer {
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+	font-size: 18px;
+}
+
+.optionsContainer {
+	font-weight: bold;
+}
+
+.advert-select {
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	padding: 0 1em 0 0;
+	margin: 0;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+	outline: none;
+	font-size: 1rem;
+}
+
+.advert-select::-ms-expand {
+	display: none;
+}
+
+.select-textArea {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+	font-size: 1rem;
+	resize: none;
+	margin-top: 10px;
+}
+
+.select-textArea:focus {
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}

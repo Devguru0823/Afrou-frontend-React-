@@ -1,0 +1,14 @@
+#popup-content {
+    display: flex;
+    justify-content: center;
+}
+
+#popup-content button {
+    background: none;
+    border: none;
+    margin: 20px auto 0;
+}
+
+#popup-content button img {
+    width: 50%;
+}
